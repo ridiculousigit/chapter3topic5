@@ -32,16 +32,16 @@ class MainActivity : AppCompatActivity() {
 
         // List Pulau Sumatera
         val listSumatera = arrayListOf(
-            ListPulau("Nanggroe Aceh Darussalam", "Banda Aceh", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sumatra Utara", "Medan", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sumatra Selatan", "Palembang", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sumatra Barat", "Padang", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Bengkulu", "Bengkulu", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Riau", "Pekanbaru", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Kepulauan Riau", "Tanjung Pinang", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Jambi", "Jambi", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Lampung", "Bandar Lampung", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Bangka Belitung", "Pangkal Pinang", R.drawable.ic_rumah_gorontalo)
+            ListPulau("Nanggroe Aceh Darussalam", "Banda Aceh", R.drawable.ic_rumah_aceh),
+            ListPulau("Sumatra Utara", "Medan", R.drawable.ic_rumah_sumut),
+            ListPulau("Sumatra Selatan", "Palembang", R.drawable.ic_rumah_sumsel),
+            ListPulau("Sumatra Barat", "Padang", R.drawable.ic_rumah_sumbar),
+            ListPulau("Bengkulu", "Bengkulu", R.drawable.ic_rumah_bengkulu),
+            ListPulau("Riau", "Pekanbaru", R.drawable.ic_rumah_riau),
+            ListPulau("Kepulauan Riau", "Tanjung Pinang", R.drawable.ic_rumah_riau),
+            ListPulau("Jambi", "Jambi", R.drawable.ic_rumah_jambi),
+            ListPulau("Lampung", "Bandar Lampung", R.drawable.ic_rumah_lampung),
+            ListPulau("Bangka Belitung", "Pangkal Pinang", R.drawable.ic_rumah_bangka)
         )
 
         val pulauSatu = PulauAdapter(listSumatera)
@@ -51,11 +51,11 @@ class MainActivity : AppCompatActivity() {
 
         // List Pulau Kalimantan
         val listKalimantan = arrayListOf(
-            ListPulau("Kalimantan Timur", "Samarinda", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Kalimantan Barat", "Pontianak", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Kalimantan Tengah", "Palangkaraya", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Kalimantan Selatan", "Banjarbaru", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Kalimantan Utara", "Tanjung Selor", R.drawable.ic_rumah_gorontalo)
+            ListPulau("Kalimantan Timur", "Samarinda", R.drawable.ic_rumah_kaltim),
+            ListPulau("Kalimantan Barat", "Pontianak", R.drawable.ic_rumah_kalbar),
+            ListPulau("Kalimantan Tengah", "Palangkaraya", R.drawable.ic_rumah_kalteng),
+            ListPulau("Kalimantan Selatan", "Banjarbaru", R.drawable.ic_rumah_kalsel),
+            ListPulau("Kalimantan Utara", "Tanjung Selor", R.drawable.ic_rumah_kalut)
         )
 
         val pulauDua = PulauAdapter(listKalimantan)
@@ -65,15 +65,15 @@ class MainActivity : AppCompatActivity() {
 
         // List Pulau Jawa
         val listJawa = arrayListOf(
-            ListPulau("DKI Jakarta", "Jakarta", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Banten", "Serang", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Jawa Barat", "Bandung", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Jawa Tengah", "Semarang", R.drawable.ic_rumah_gorontalo),
-            ListPulau("DI Yogyakarta", "Yogyakarta", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Jawa Timur", "Surabaya", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Bali", "Denpasar", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Nusa Tenggara Barat", "Mataram", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Nusa Tenggara Timur", "Kupang", R.drawable.ic_rumah_gorontalo)
+            ListPulau("DKI Jakarta", "Jakarta", R.drawable.ic_rumah_dki),
+            ListPulau("Banten", "Serang", R.drawable.ic_rumah_banten),
+            ListPulau("Jawa Barat", "Bandung", R.drawable.ic_rumah_jabar),
+            ListPulau("Jawa Tengah", "Semarang", R.drawable.ic_rumah_jateng),
+            ListPulau("DI Yogyakarta", "Yogyakarta", R.drawable.ic_rumah_jogja),
+            ListPulau("Jawa Timur", "Surabaya", R.drawable.ic_rumah_jatim),
+            ListPulau("Bali", "Denpasar", R.drawable.ic_rumah_bali),
+            ListPulau("Nusa Tenggara Barat", "Mataram", R.drawable.ic_rumah_ntt),
+            ListPulau("Nusa Tenggara Timur", "Kupang", R.drawable.ic_rumah_ntb)
         )
 
         val pulauTiga = PulauAdapter(listJawa)
@@ -83,12 +83,12 @@ class MainActivity : AppCompatActivity() {
 
         // List Pulau Sulawesi
         val listSulawesi = arrayListOf(
-            ListPulau("Sulawesi Utara", "Manado", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sulawesi Barat", "Mamuju", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sulawesi Tengah", "Palu", R.drawable.ic_rumah_gorontalo),
+            ListPulau("Sulawesi Utara", "Manado", R.drawable.ic_rumah_sulut),
+            ListPulau("Sulawesi Barat", "Mamuju", R.drawable.ic_rumah_sulbar),
+            ListPulau("Sulawesi Tengah", "Palu", R.drawable.ic_rumah_sulteng),
             ListPulau("Gorontalo", "Gorontalo", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sulawesi Tenggara", "Kendari", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Sulawesi Selatan", "Makassar", R.drawable.ic_rumah_gorontalo)
+            ListPulau("Sulawesi Tenggara", "Kendari", R.drawable.ic_rumah_sultara),
+            ListPulau("Sulawesi Selatan", "Makassar", R.drawable.ic_rumah_sulsel)
         )
 
         val pulauEmpat = PulauAdapter(listSulawesi)
@@ -98,8 +98,8 @@ class MainActivity : AppCompatActivity() {
 
         // List Pulau Maluku
         val listMaluku = arrayListOf(
-            ListPulau("Maluku Utara", "Sofifi", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Maluku", "Ambon", R.drawable.ic_rumah_gorontalo)
+            ListPulau("Maluku Utara", "Sofifi", R.drawable.ic_rumah_malut),
+            ListPulau("Maluku", "Ambon", R.drawable.ic_rumah_maluku)
         )
 
         val pulauLima = PulauAdapter(listMaluku)
@@ -109,11 +109,11 @@ class MainActivity : AppCompatActivity() {
 
         // List Pulau Papua
         val listPapua = arrayListOf(
-            ListPulau("Papua Barat", "Manokwari", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Papua", "Jayapura", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Papua Selatan", "Kabupaten Merauke", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Papua Tengah", "Kabupaten Nabire", R.drawable.ic_rumah_gorontalo),
-            ListPulau("Papua Pegunungan", "Kabupaten Jayawijaya", R.drawable.ic_rumah_gorontalo)
+            ListPulau("Papua Barat", "Manokwari", R.drawable.ic_rumah_papbar),
+            ListPulau("Papua", "Jayapura", R.drawable.ic_rumah_papua),
+            ListPulau("Papua Selatan", "Kabupaten Merauke", R.drawable.ic_rumah_papsel),
+            ListPulau("Papua Tengah", "Kabupaten Nabire", R.drawable.ic_rumah_papteng),
+            ListPulau("Papua Pegunungan", "Kabupaten Jayawijaya", R.drawable.ic_rumah_papeng)
         )
 
         val pulauEnam = PulauAdapter(listPapua)
