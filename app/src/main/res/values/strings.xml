@@ -1,3 +1,22 @@
 <resources>
+    <!--Main Activity-->
     <string name="app_name">chapter3topic5</string>
+    <string name="pulau_sumatera">Pulau Sumatera</string>
+    <string name="pulau_kalimantan">Pulau Kalimantan</string>
+    <string name="pulau_jawa">Pulau Jawa</string>
+    <string name="pulau_sulawesi">Pulau Sulawesi</string>
+    <string name="pulau_maluku">Pulau Maluku</string>
+    <string name="pulau_papua">Pulau Papua</string>
+    <!--Item Pulau-->
+    <string name="nama_provinsi">Provinsi :</string>
+    <string name="nama_ibukota">Ibu Kota :</string>
+    <string name="contoh_provinsi">DKI Jakarta</string>
+    <string name="contoh_ibukota">Jakarta</string>
+    <string name="desc_satu">Rumah Adat</string>
+    <!--Item Student-->
+    <string name="nama_siswa">Nama Siswa :</string>
+    <string name="nim_siswa">NIM Siswa :</string>
+    <string name="contoh_nama">Sigit Prasetyo</string>
+    <string name="contoh_nim">57419199</string>
+    <string name="desc_dua">Foto Siswa</string>
 </resources>

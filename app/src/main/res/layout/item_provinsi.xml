@@ -15,7 +15,7 @@
             android:id="@+id/headerProv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
             android:layout_marginStart="10dp"
             android:orientation="vertical">
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="Provinsi :"
+                android:text="@string/nama_provinsi"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -38,7 +38,7 @@
                 android:layout_marginTop="5dp"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="Ibu Kota :"
+                android:text="@string/nama_ibukota"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -60,10 +60,9 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="Provinsi"
+                android:text="@string/contoh_provinsi"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/hasilIbukota"
@@ -72,10 +71,9 @@
                 android:layout_marginTop="5dp"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:text="Ibu Kota"
+                android:text="@string/contoh_ibukota"
                 android:textColor="@color/black"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -83,9 +81,10 @@
             android:id="@+id/imageRumah"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_margin="10dp"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/desc_satu" />
 
     </RelativeLayout>
 
